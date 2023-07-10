@@ -200,7 +200,7 @@ except ImportError:
     _c_ssize_t = ctypes.c_ssize_t
 
     _PyBUF_SIMPLE = 0
-    _PyObject_GetBuffer = ctypes.pythonapi.PyObject_GetBuffer
+    #_PyObject_GetBuffer = ctypes.pythonapi.PyObject_GetBuffer
     _PyBuffer_Release = ctypes.pythonapi.PyBuffer_Release
     _py_object = ctypes.py_object
     _c_ssize_p = ctypes.POINTER(_c_ssize_t)
