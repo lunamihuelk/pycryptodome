@@ -201,9 +201,9 @@ except ImportError:
 
     _PyBUF_SIMPLE = 0
     #_PyObject_GetBuffer = ctypes.pythonapi.PyObject_GetBuffer
-    _PyBuffer_Release = ctypes.pythonapi.PyBuffer_Release
-    _py_object = ctypes.py_object
-    _c_ssize_p = ctypes.POINTER(_c_ssize_t)
+    #_PyBuffer_Release = ctypes.pythonapi.PyBuffer_Release
+    #_py_object = ctypes.py_object
+    #_c_ssize_p = ctypes.POINTER(_c_ssize_t)
 
     # See Include/object.h for CPython
     # and https://github.com/pallets/click/blob/master/src/click/_winconsole.py
